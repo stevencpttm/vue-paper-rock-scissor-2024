@@ -1,5 +1,6 @@
 <template>
   <div id="container">
+    <h2>Paper-Rock-Scissor</h2>
     <div id="bot-placeholder">
       <img :src="playerImage">
     </div>
@@ -92,6 +93,15 @@ export default {
   padding-top: 40px;
   box-sizing: border-box;
   background-color: #44D7B6;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  position: relative;
+  margin-top: -20px;
+  margin-bottom: 10px;
 }
  
 #bot-placeholder, #you-placeholder {
